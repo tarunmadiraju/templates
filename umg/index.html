@@ -1,4 +1,3 @@
-<div class="app-container" style="display: block;">
 <html>
   <head>
     <title>Sign Up or Sign In</title>
@@ -14,7 +13,6 @@
       <div class="brand">
         <img src="https://authx-assets-dev.azureedge.net/assets/umg-logo%402x.png" data-tenant-branding-logo="true" />
       </div>
-		<div data-skcomponent="skerror" class="feedback feedback--error sk-alert sk-alert-danger has-text-danger has-background-danger-light" data-id="feedback" data-skvisibility=""></div>
       
       <div class="columns">
         <div id="api" data-name="Unified">
@@ -62,7 +60,7 @@
                   <p></p>
                 </div>
                 
-                <!--<input
+                <input
                   type="email"
                   title="Please enter a valid email address."
                   id="signInName"
@@ -71,75 +69,38 @@
                   placeholder="Email Address"
                   value=""
                   aria-label="Email Address"
-                />-->
-				  
-				  <!-- DV INPUT USERNAME -->
-				  
-				  <form class="form" id='usernamePasswordForm' data-id="usernamePasswordForm">
-					<div class="field float-label">
-						<input class="text-input float-label__input" data-id="username-input" id="username" name="username" type="text" autocomplete="on" value="" />
-						<label class="float-label__label" for="username">Username</label>
-					</div>
-				  
+                />
               </div>
               
-              <!--<div class="entry-item">
+              <div class="entry-item">
                 <div class="password-label">
                   <label for="password">Password</label>
                   
                   <a id="forgotPassword" href="/umgb2cnonprod.onmicrosoft.com/B2C_1A_LimitedSignupSigninUmb/api/CombinedSigninAndSignup/forgotPassword?csrf_token=UlgvL1MxMXVqNHltQTd6ejRjS0VhV2JkWENTRW0wM2RDa3JCMEhvTzZwVnlYMVhjUE1JOTZaaTh2bWoxdjl3bjI3anI1Nzl3WGtKNWdBTnI1c25uNmc9PTsyMDIyLTA0LTI2VDIyOjU4OjA0LjcxMDg2NzFaO2RVY2ZwUEs3TlVQRnJTaE9jOFlLMWc9PTt7Ik9yY2hlc3RyYXRpb25TdGVwIjoxfQ==&amp;tx=StateProperties=eyJUSUQiOiI0NmRmZGRlYi01MWU5LTQ4Y2UtOTUyOC1hMjRlODc4YzczM2IifQ&amp;p=B2C_1A_LimitedSignupSigninUmb">
                     Forgot your password?
                   </a>
-                </div>-->
-				<!-- DV FORGOT PASSWORD -->
-				<div class="control">
-                        <div style="width: 100%; text-align: center;">
-                            <button type="submit" class="buttonLink is-primary is-inverted mt-2" data-skcomponent="skbutton" data-skbuttontype="form-submit" data-skform="usernamePasswordForm" data-skbuttonvalue="forgotPassword">
-                                Forgot Password
-                                <i class="fas fa-forward ml-2"></i>
-                            </button>
-							
-							<!-- DV SIGN UP -->
-							
-							<br><button type="submit" class="btn btn-link" data-skcomponent="skbutton" data-skbuttontype="form-submit" data-skform="usernamePasswordForm" data-skbuttonvalue="registerUser">
-					No account?  Register now!
-				</button>
+                </div>
                 
                 <div class="error itemLevel" aria-hidden="true" style="display: none;">
                   <p role="alert"></p>
                 </div>
                 
-               <!-- <input
+                <input
                   type="password"
                   id="password"
                   name="Password"
                   placeholder="Password"
                   aria-label="Password"
-                  />-->
-							<!-- DV PASSWORD -->
-							
-							<div class="field float-label">
-						<input class="text-input text-input--pasword float-label__input" data-id="password-input" id="password" name="password" type="password" autocomplete="on" value="" />
-						<label class="float-label__label" for="password">Password</label>
-					</div>
-							
-							
+                  />
               </div>
               
               <div class="working"></div>
               
-              <!--<div class="buttons">
+              <div class="buttons">
                 <button id="next" type="submit" form="localAccountForm">
                   Sign in
                 </button>
-              </div>-->
-					<!-- DV SIGN ON -->
-              <div class="control">
-						<button class="field is-primary mt-2 button file-input--button button--primary brand-primary-bg" data-id="button" type="submit" data-skcomponent="skbutton" data-skbuttontype="form-submit" data-skform="usernamePasswordForm" data-skbuttonvalue="submit">
-                            Sign On
-							<i class="fas fa-forward ml-2"></i>
-						</button>
-					</div>					
+              </div>
             </div>
           </form>
         </div>
